@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SiteSite</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" charset="utf-8">
+        <link rel="stylesheet" href="css/style.css" media="screen" charset="utf-8">
+    </head>
+    <body>
+        <nav>
+            <ul class="main-nav">
+                <li class="menu-item"><a href="#top">Accueil</a></li>
+                <li class="menu-item"><a href="#info">Info generale</a></li>
+                <li class="menu-item"><a href="#contact">Contactez-nous</a></li>
+            </ul>
+        </nav>
+
+        <header class="page-section" id="top">
+            <div class="header-bg"></div>
+            <div class="header-content">
+                <h1>Lorem Ipsum</h1>
+                <p>Un modèle de cahier des charges pour votre site internet</p>
+                <a href="#contact">Obtenir une copie</a>
+            </div>
+        </header>
+
+        <section class="page-section" id="info">
+
+            <h2 class="section-title">Notre cahier des charges</h2>
+            <p class="section-desc">Quelles informations doivent figurer ?</p>
+
+            <div class="info-box-container">
+                <div class="info-box">
+                    <img src="img/clipboard.svg" alt="clipboard">
+                    <h3>1. Votre société</h3>
+                    <p>Commencez par une présentation en quelques lignes de votre entreprise et de son identité.</p>
+                </div>
+
+                <div class="info-box">
+                    <img src="img/document.svg" alt="paper document">
+                    <h3>2. Le type de projet</h3>
+                    <p>Il existe de nombreuses raisons de contacter une agence web : créer un nouveau site vitrine, procéder à la refonte de l'ancien, y ajouter un blog.</p>
+                </div>
+
+                <div class="info-box">
+                    <img src="img/pencil.svg" alt="pencil">
+                    <h3>3. Les prestations dont vous allez avoir besoin</h3>
+                    <p>Le prestataire que vous allez choisir peut réaliser l'ensemble du site lui-même (de la conception à la mise en ligne) ou simplement une partie.</p>
+                </div>
+
+                <div class="info-box">
+                    <img src="img/Report.svg" alt="report">
+                    <h3>4. Les fonctionnalités du futur site</h3>
+                    <p>A présent, il s’agit de lister tout ce que les utilisateurs pourront faire sur votre site. Cela veut dire les visiteurs, mais aussi les administrateurs.</p>
+                </div>
+
+                <div class="info-box">
+                    <img src="img/Text_Editor.svg" alt="text editor">
+                    <h3>5. Le contenu du futur site</h3>
+                    <p>Avez-vous déjà une idée du contenu ou de la structure du futur site ? Les rubriques, les thématiques, les types de pages (Contact, Recrutement, A propos, etc.).</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="page-section" id="contact">
+            <h2 class="section-title">Notre trou du cul d une grqnde pronfondeur</h2>
+            <p class="section-desc">Quelles informations doivent figurer ?</p>
+            <form method="post" id="contact-form">
+                <label for="firstname" class="contact-label">Votre nom</label>
+                <input type="text" id="firstname" class="contact-input" placeholder="Nom et prenom ici">
+                <div id="name-msg"></div>
+
+                <br>
+                <label for="email" class="contact-label">Votre email</label>
+                <input type="email" id="email" class="contact-input" placeholder="email@email.fr">
+                <div id="email-msg"></div>
+                <br>
+
+                <label for="email" class="contact-label label-textarea">Message</label>
+                <textarea id="msg" class="contact-input" placeholder="Votre message"></textarea>
+                <div id="msg-msg"></div>
+                <br>
+
+                <label class="contact-label"></label>
+                <input type="submit" id="contact-form-btn">
+            </form>
+        </section>
+
+        <footer class="page-section">
+            &copy; Anastasia Oudin.
+            <span id="current-date"></span>
+
+            <span id="link-to-top">
+                <a href="#top" class="arrow">
+                    <i class="fa fa-arrow-up"></i>
+                </a>
+            </span>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
